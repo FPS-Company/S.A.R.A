@@ -1,5 +1,6 @@
-package com.example.testetelaesboo;
+package com.example.testetelaesboo.login;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
@@ -11,9 +12,12 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.testetelaesboo.R;
+import com.example.testetelaesboo.cadastro.TelaCadastro;
+
 
 public class MainActivity extends AppCompatActivity {
-    private Button btnLogin;
+    private Button btnLogin,btnteste;
     private EditText telaLogin_edtEmail;
     private EditText telaLogin_edtSenha;
     private TextView telaLogin_txtEMS,telaLogin_txtCadastro;
@@ -39,7 +43,10 @@ public class MainActivity extends AppCompatActivity {
         telaLogin_txtCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Vai redirecionar para a Tela de Cadastro", Toast.LENGTH_LONG).show();
+                //Intent Cadastro
+                Intent telacadastro = new Intent(MainActivity.this, TelaCadastro.class);
+                startActivity(telacadastro);
+                finish();
             }
         });
 
@@ -67,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
         if(resultado){
             Toast.makeText(MainActivity.this,"Há campos inválidos ou em branco!", Toast.LENGTH_LONG).show();
         }
+
+
     }
     private boolean isCampoVazio(String valor){
         boolean resultado = (TextUtils.isEmpty(valor) || valor.trim().isEmpty());

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121B3E">
+
+    <Button
+        android:id="@+id/telaCadastro_btnCadastro"
+        android:layout_width="243dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/telacadastro_btn_style_cadastro"
+        android:text="CRIAR"
+        android:textColor="#121b3e"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/telaCadastro_edtCSenha"
+        app:layout_constraintStart_toStartOf="@+id/telaCadastro_edtCSenha"
+        app:layout_constraintTop_toBottomOf="@+id/telaCadastro_edtCSenha" />
+
+    <EditText
+        android:id="@+id/telaCadastro_edtCSenha"
+        android:layout_width="293dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/telacadastro_edtnome_cadastro"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:ems="10"
+        android:hint="Confirmar  Senha"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#f4f4f4"
+        android:textColorHint="#38c1cdc1 "
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/telaCadastro_edtNome"
+        app:layout_constraintStart_toStartOf="@+id/telaCadastro_edtNome"
+        app:layout_constraintTop_toBottomOf="@+id/telaCadastro_edtSenha" />
+
+    <EditText
+        android:id="@+id/telaCadastro_edtEmail"
+        android:layout_width="293dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/telacadastro_edtnome_cadastro"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:ems="10"
+        android:hint="email@dominio.com"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#f4f4f4"
+        android:textColorHint="#38c1cdc1 "
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/telaCadastro_edtNome"
+        app:layout_constraintStart_toStartOf="@+id/telaCadastro_edtNome"
+        app:layout_constraintTop_toBottomOf="@+id/telaCadastro_edtNome" />
+
+    <EditText
+        android:id="@+id/telaCadastro_edtSenha"
+        android:layout_width="293dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/telacadastro_edtnome_cadastro"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#f4f4f4"
+        android:textColorHint="#38c1cdc1 "
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/telaCadastro_edtNome"
+        app:layout_constraintStart_toStartOf="@+id/telaCadastro_edtNome"
+        app:layout_constraintTop_toBottomOf="@+id/telaCadastro_edtEmail" />
+
+    <EditText
+        android:id="@+id/telaCadastro_edtNome"
+        android:layout_width="293dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/telacadastro_edtnome_cadastro"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:ems="10"
+        android:gravity="center|start"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#f4f4f4"
+        android:textColorHint="#38c1cdc1 "
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/telaCadastro_txtCriar"
+        app:layout_constraintStart_toStartOf="@+id/telaCadastro_txtCriar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="113dp"
+        android:layout_height="106dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149"
+        app:srcCompat="@mipmap/icone_round" />
+
+    <TextView
+        android:id="@+id/telaCadastro_txtCriar"
+        android:layout_width="186dp"
+        android:layout_height="49dp"
+        android:text="Criar Conta"
+        android:textColor="#f4f4f4"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/telaCadastro_edtNome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.629" />
+</androidx.constraintlayout.widget.ConstraintLayout>

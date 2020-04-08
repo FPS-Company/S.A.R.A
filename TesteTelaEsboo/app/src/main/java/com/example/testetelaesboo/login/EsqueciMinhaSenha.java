@@ -1,8 +1,10 @@
-package com.example.testetelaesboo;
+package com.example.testetelaesboo.login;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.testetelaesboo.R;
 
 public class EsqueciMinhaSenha extends AppCompatActivity {
 
