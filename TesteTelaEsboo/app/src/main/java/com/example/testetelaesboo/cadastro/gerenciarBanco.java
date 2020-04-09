@@ -29,7 +29,7 @@ public class gerenciarBanco{
     }
 
     private static void criarTabelas() {
-        String sql = "CREATE TABLE IF NOT EXISTS usuario("
+        String sql = "CREATE TABLE IF NOT EXISTS usuarios("
                 + "nome varchar(100) NOT NULL ,"
                 + "email varchar(150) NOT NULL,"
                 + "senha varchar(15) NOT NULL,"
