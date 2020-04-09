@@ -1,0 +1,362 @@
+[
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_lock_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_lock_outline_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icone_foreground.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_lock_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_lock_outline_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_lock_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_lock_outline_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_account_circle_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_account_circle_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_icone_foreground.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_account_circle_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_lock_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_lock_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_person_add_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_person_add_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_email_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_icone_foreground.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\icone_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_lock_outline_black_24dp.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_lock_outline_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icone.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\icone.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_email_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_imagem_seleciona.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\imagem_seleciona.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_person_add_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_person_add_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_person_add_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_person_add_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_email_black_24dp.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_icone_round.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\icone_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icone_round.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_face_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_face_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icone.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\icone.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_lock_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_lock_outline_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_imagem_seleciona.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\imagem_seleciona.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_telacadastro_btn_style_cadastro.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\drawable\\telacadastro_btn_style_cadastro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icone.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\icone.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icone.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\icone.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_account_circle_black_24dp.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_account_circle_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_lock_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_lock_outline_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_person_add_black_24dp.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person_add_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_lock_outline_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_lock_outline_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_lock_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_lock_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_face_black_24dp.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_face_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_imagem_seleciona.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\imagem_seleciona.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_email_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_lock_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_lock_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_face_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_face_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icone_round.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-mdpi\\icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icone.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\icone.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_imagem_seleciona.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\imagem_seleciona.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable_telacadastro_edtnome_cadastro.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\drawable\\telacadastro_edtnome_cadastro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_person_add_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_person_add_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_lock_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_lock_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_lock_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_lock_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_person_add_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_person_add_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icone_foreground.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_person_add_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_add_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_face_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_face_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icone_foreground.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_imagem_seleciona.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\imagem_seleciona.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icone_round.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_icone.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\icone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_face_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_face_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_face_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_face_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_lock_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_lock_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_account_circle_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_face_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_face_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_imagem_seleciona.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\imagem_seleciona.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_imagem_seleciona.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\imagem_seleciona.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icone_foreground.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icone_round.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xhdpi\\icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_icone_foreground.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\icone_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_account_circle_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_account_circle_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_email_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_lock_black_24dp.xml.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_lock_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icone_round.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\icone_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_email_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_email_black_24dp.png.flat",
+        "source": "C:\\Users\\Rafael\\AndroidStudioProjects\\MyApplication\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_email_black_24dp.png"
+    }
+]
