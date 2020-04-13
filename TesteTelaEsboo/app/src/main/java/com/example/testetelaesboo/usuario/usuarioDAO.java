@@ -1,7 +1,7 @@
 package com.example.testetelaesboo.usuario;
 
-import com.example.testetelaesboo.cadastro.connectionFactory;
-import com.example.testetelaesboo.cadastro.genericDAO;
+import com.example.testetelaesboo.banco_de_dados.connectionFactory;
+import com.example.testetelaesboo.banco_de_dados.genericDAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

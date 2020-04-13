@@ -1,4 +1,4 @@
-package com.example.testetelaesboo.cadastro;
+package com.example.testetelaesboo.banco_de_dados;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ public class connectionFactory {
 
     public Connection getConnection() {
         Connection conn = null;
-        String urlSchema = "jdbc:mysql://localhost:3306/pessoas";
+        String urlSchema = "jdbc:mysql://localhost:3306/S.A.R.A";
         try {
             conn = DriverManager.getConnection(urlSchema, "root", "1234");
         }catch(SQLException e) {

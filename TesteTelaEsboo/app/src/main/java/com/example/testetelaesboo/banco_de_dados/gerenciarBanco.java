@@ -1,4 +1,4 @@
-package com.example.testetelaesboo.cadastro;
+package com.example.testetelaesboo.banco_de_dados;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ public class gerenciarBanco{
 
     private static String uri = "localhost";//Do meu computador a senha é vazio
     private static String port = "3306";
-    private static String schema = "pessoas";
+    private static String schema = "S.A.R.A";
     private static String login = "root";
     private static String senha = "1234";
     private static String url = "jdbc:mysql://localhost:3306/";
@@ -29,7 +29,7 @@ public class gerenciarBanco{
     }
 
     private static void criarTabelas() {
-        String sql = "CREATE TABLE IF NOT EXISTS usuarios("
+        String sql = "CREATE TABLE IF NOT EXISTS usuario("
                 + "nome varchar(100) NOT NULL ,"
                 + "email varchar(150) NOT NULL,"
                 + "senha varchar(15) NOT NULL,"
