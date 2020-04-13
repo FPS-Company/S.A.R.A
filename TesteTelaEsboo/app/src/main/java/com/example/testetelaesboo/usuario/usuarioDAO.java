@@ -12,7 +12,7 @@ import java.util.List;
 
 public class usuarioDAO implements genericDAO<usuario> {
 
-    
+
     @Override
     public void inserir(usuario elemento) {
 
