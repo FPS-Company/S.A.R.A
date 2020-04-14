@@ -13,8 +13,10 @@
       "./mixins"
     ]
   },
+    
   "usuario": {
     "dataSource": "db",
     "public": true
   }
+  
 }
