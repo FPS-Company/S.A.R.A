@@ -14,7 +14,7 @@
     ]
   },
   "usuario": {
-    "dataSource": null,
+    "dataSource": "db",
     "public": true
   }
 }
