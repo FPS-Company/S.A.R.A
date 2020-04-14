@@ -13,10 +13,12 @@
       "./mixins"
     ]
   },
-    
   "usuario": {
     "dataSource": "db",
     "public": true
+  },
+  "testes": {
+    "dataSource": "SARA2",
+    "public": true
   }
-  
 }
