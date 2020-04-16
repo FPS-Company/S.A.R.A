@@ -1,16 +1,12 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "SARA2": {
     "host": "localhost",
     "port": 27017,
-    "url": "mongodb+srv://Admin:Admin@sara-ulnuf.gcp.mongodb.net/test?retryWrites=true&w=majority",
-    "database": "SARA_Banco",
-    "password": "Admin",
+    "url": "mongodb+srv://Sara:Sara@sara-bnyug.gcp.mongodb.net/test?retryWrites=true&w=majority",
+    "database": "SARA",
+    "password": "Sara",
     "name": "SARA2",
-    "user": "Admin",
+    "user": "Sara",
     "useNewUrlParser": true,
     "connector": "mongodb"
   }

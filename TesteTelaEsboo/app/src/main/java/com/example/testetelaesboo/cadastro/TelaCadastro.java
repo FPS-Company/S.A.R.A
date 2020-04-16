@@ -1,17 +1,26 @@
 package com.example.testetelaesboo.cadastro;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.text.TextUtils;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.testetelaesboo.R;
+import com.example.testetelaesboo.api.Retrofit_Service;
+import com.example.testetelaesboo.usuario.usuario;
+
+import java.io.IOException;
+
+import retrofit2.Call;
+import retrofit2.Response;
 
 public class TelaCadastro extends  AppCompatActivity {
 
@@ -24,6 +33,8 @@ public class TelaCadastro extends  AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main_cadastro);
             getSupportActionBar().hide();
+            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+            StrictMode.setThreadPolicy(policy);
 
             //obter o objeto intent que está clicando em se cadastrar
             Intent recebeTelaLogin = getIntent();
@@ -34,9 +45,22 @@ public class TelaCadastro extends  AppCompatActivity {
             telaCadastro_edtCSenha = findViewById(R.id.telaCadastro_edtCSenha);
             telaCadastro_btnCadastro = findViewById(R.id.telaCadastro_btnCadastro);
 
+//          BUTTON
             telaCadastro_btnCadastro.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    Response response = null;
+                    Call<usuario> request = null;
+                    try {
+                        // novo cadastro
+                        //POST na API sem enviar o id que será gerado no banco
+                        request = new Retrofit_Service().getSaraApi().CadastroUsuario(telaCadastro_edtNome.getText().toString(), telaCadastro_edtEmail.getText().toString(),
+                                telaCadastro_edtSenha.getText().toString());
+                        response = request.execute();
+                    }catch (IOException e) {
+                        e.printStackTrace();
+                        Log.e("ERRO", e.getMessage());
+                    }
                     ValidarCampos();
                 }
 
