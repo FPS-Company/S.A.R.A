@@ -16,7 +16,6 @@
 
 
         <activity android:name=".cadastro.TelaCadastro"></activity>
-        <activity android:name=".login.EsqueciMinhaSenha"></activity>
         <activity android:name=".login.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

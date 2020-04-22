@@ -8,6 +8,84 @@
     android:background="#121b3e"
     tools:context=".login.MainActivity">
 
+
+
+    <LinearLayout
+        android:id="@+id/main_background_model_ems_login"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_background_model_ems_login"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/main_background_ems_login"
+        app:layout_constraintEnd_toEndOf="@+id/main_background_ems_login"
+        app:layout_constraintStart_toStartOf="@+id/main_background_ems_login"
+        app:layout_constraintTop_toTopOf="@+id/main_background_ems_login">
+
+       <TextView
+           android:id="@+id/main_background_model_ems_textView1_login"
+           android:layout_marginTop="20dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Esqueceu sua senha ?"
+           android:textSize="22sp"
+           android:textColor="#121b3e"
+           android:textStyle="bold"
+           />
+        <TextView
+            android:id="@+id/main_background_model_ems_textView2_login"
+            android:lineSpacingExtra="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textAlignment="center"
+            android:text="Por favor, insira o endereço de e-mail que você usou durante o cadastro."
+            android:textSize="15sp"
+            android:textColor="#121b3e"
+            />
+
+        <EditText
+            android:id="@+id/main_background_model_ems_editEmail_login"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/main_background_model_ems_editemail_login"
+            android:hint="Digite seu email"
+            android:textColorHint="#66121b3e"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:textColor="#121b3e"
+            />
+
+        <Button
+            android:id="@+id/main_background_model_ems_btnConfirma_login"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/main_background_ems_btn_redefinir_login"
+            android:text="confirmar"
+            android:textColor="#f4f4f4"
+            android:textSize="15sp"
+            android:textStyle="normal"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_background_ems_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_background_ems_login"
+        android:elevation="3dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        />
+
     <EditText
         android:id="@+id/main_Login_editEmail"
         style="@style/Widget.AppCompat.EditText"
@@ -57,9 +135,11 @@
 
     <TextView
         android:id="@+id/main_EMS_Login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="152dp"
+        android:layout_height="19dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/main_text_view_ems_login"
+        android:paddingLeft="6dp"
         android:text="Esqueci minha senha?"
         android:textColor="#C9FAFAFA"
         app:layout_constraintEnd_toEndOf="@+id/main_Login_editSenha"
@@ -67,11 +147,13 @@
 
     <TextView
         android:id="@+id/main_Cadastro_Login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="20dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/main_text_view_registrar_login"
         android:gravity="center_horizontal"
+        android:paddingLeft="2dp"
         android:text="Não tenho conta ? Registre-se"
         android:textColor="#C9FAFAFA"
         app:layout_constraintStart_toStartOf="@+id/main_btnLogin"

@@ -33,6 +33,7 @@ public class TelaCadastro extends  AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main_cadastro);
             getSupportActionBar().hide();
+            //Permissão de navegar na network
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
 
@@ -51,23 +52,27 @@ public class TelaCadastro extends  AppCompatActivity {
                 public void onClick(View v) {
                     Response response = null;
                     Call<usuario> request = null;
-                    try {
-                        // novo cadastro
-                        //POST na API sem enviar o id que será gerado no banco
-                        request = new Retrofit_Service().getSaraApi().CadastroUsuario(telaCadastro_edtNome.getText().toString(), telaCadastro_edtEmail.getText().toString(),
-                                telaCadastro_edtSenha.getText().toString());
+                    try  {
+                        if(ValidarCampos() == true){
+                            // novo cadastro
+                            // POST na API sem enviar o id que será gerado no banco
+                        request = new Retrofit_Service().getSaraApi().CadastroUsuario(telaCadastro_edtNome.getText().toString(),
+                                telaCadastro_edtEmail.getText().toString(), telaCadastro_edtSenha.getText().toString());
                         response = request.execute();
+                        }else{
+                            Toast.makeText( TelaCadastro.this,"Problema ao realizar o cadastro!", Toast.LENGTH_LONG).show();
+                        }
                     }catch (IOException e) {
                         e.printStackTrace();
                         Log.e("ERRO", e.getMessage());
                     }
-                    ValidarCampos();
+
                 }
 
             });
 
         }
-        private void ValidarCampos(){
+        private boolean ValidarCampos(){
             boolean resultadoNome = false;
             boolean resultadoEmail = false;
             boolean resultadoSenha = false;
@@ -82,7 +87,7 @@ public class TelaCadastro extends  AppCompatActivity {
                 telaCadastro_edtNome.requestFocus();
                 Toast.makeText( TelaCadastro.this,"digite um nome", Toast.LENGTH_LONG).show();
             }
-//      Validação do campo email
+            // Validação do campo email
             else if(resultadoEmail = isCampoVazio(email)){
                 telaCadastro_edtEmail.requestFocus();
                 Toast.makeText( TelaCadastro.this,"Por favo digite um e-mail", Toast.LENGTH_LONG).show();
@@ -90,21 +95,25 @@ public class TelaCadastro extends  AppCompatActivity {
                 telaCadastro_edtEmail.requestFocus();
                 Toast.makeText( TelaCadastro.this,"email invalido", Toast.LENGTH_LONG).show();
             }
-//       Validação dos campos Senha e CSena
+            // Validação dos campos Senha e CSena
             else if(resultadoSenha = isCampoVazio(senha)){
                 telaCadastro_edtSenha.requestFocus();
                 Toast.makeText( TelaCadastro.this,"Digite uma senha", Toast.LENGTH_LONG).show();
-            } else if(resultadoSenha = senha.length()<6){
+            }else if(resultadoSenha = senha.length()<6){
                 telaCadastro_edtSenha.requestFocus();
                 Toast.makeText( TelaCadastro.this, "Senha muito fraca" , Toast.LENGTH_LONG).show();
             }
-//         Validação do campo cSenha
+            // Validação do campo cSenha
             else if (!cSenha.equals(senha)) {
                 telaCadastro_edtCSenha.requestFocus();
                 Toast.makeText( TelaCadastro.this,"Senhas não conferem!", Toast.LENGTH_LONG).show();
                 resultadoCSenha = true;
             }
-
+            if ((resultadoNome = true) && (resultadoEmail = true) && ( resultadoSenha =true) && (resultadoCSenha = true)){
+                return true;
+            }else{
+                return false;
+            }
         }
         private boolean isCampoVazio(String valor){
             boolean resultado = (TextUtils.isEmpty(valor) || valor.trim().isEmpty());

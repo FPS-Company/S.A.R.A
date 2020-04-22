@@ -2,7 +2,4 @@
 <adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
     <background android:drawable="@color/icone_background"/>
     <foreground android:drawable="@drawable/imagem_seleciona"/>
-
-
-
 </adaptive-icon>
