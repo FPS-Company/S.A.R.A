@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
 import android.view.View;
+import android.view.Window;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
@@ -14,6 +15,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.view.ViewCompat;
 
 import com.example.testetelaesboo.R;
@@ -53,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         main_backgound_model_ems_login.setAlpha(0);
 
         //Eventos
+        //Text View
         telaLogin_txtEMS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -62,11 +66,10 @@ public class MainActivity extends AppCompatActivity {
                 //model EMS
                 main_backgound_model_ems_login.setAlpha(1);
                 main_backgound_model_ems_login.startAnimation(fromsmall);
+                //Evento do Confirmar no model
                 btn_background_ems_confirma.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        main_backgound_ems_login.startAnimation(fromnothing);
-                        main_backgound_model_ems_login.startAnimation(fromsmall);
                         ViewCompat.animate(main_backgound_ems_login).setStartDelay(1000).alpha(0).start();
                         ViewCompat.animate(main_backgound_model_ems_login).setStartDelay(1000).alpha(0).start();
                     }
@@ -78,15 +81,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //Intent Cadastro
                 Intent telacadastro = new Intent(MainActivity.this, TelaCadastro.class);
-                startActivity(telacadastro);
-                finish();
+                //ActivityOptionsCompat compat = ActivityOptionsCompat.makeCustomAnimation(getApplicationContext(),R.anim.fade_in,R.anim.fade_out);
+               // ActivityCompat.startActivity(MainActivity.this, telacadastro,compat.toBundle());
+               startActivity(telacadastro);
+
+
             }
         });
-
+        //Button
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 ValidarCampos();
+//                ActivityOptionsCompat compat = ActivityOptionsCompat.makeSceneTransitionAnimation(this,btnLogin, "transtion_key");
+//                ActivityCompat.startActivity(this,intent, compat.toBundle());
             }
         });
     }
