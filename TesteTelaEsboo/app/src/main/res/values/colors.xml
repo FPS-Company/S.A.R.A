@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    //telalogin
     <color name="colorPrimary">#121b3e</color>
     <color name="colorPrimaryDark">#121b3e</color>
     <color name="colorAccent">#03DAC5</color>
+    //telaprincipal
+    <color name="colorPrimaryTelaPrincipal">#4F5989</color>
+    <color name="colorPrimaryDarkTelaPrincipal">#4F5989</color>
+    <color name="colorAccentTelaPrincipal">#0307DA</color>
 </resources>
+

@@ -40,8 +40,18 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/layout_item_filme_recyclerView_filme_textDuracao2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Data" />
+
+            <TextView
                 android:id="@+id/layout_item_filme_recyclerView_filme_textDuracao"
-                android:layout_width="match_parent"
+                android:layout_width="79dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"

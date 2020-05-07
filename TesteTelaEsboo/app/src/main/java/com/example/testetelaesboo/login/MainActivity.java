@@ -21,6 +21,7 @@ import androidx.core.view.ViewCompat;
 
 import com.example.testetelaesboo.R;
 import com.example.testetelaesboo.cadastro.TelaCadastro;
+import com.example.testetelaesboo.telaPrincipal.TelaPrincipal;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -84,17 +85,15 @@ public class MainActivity extends AppCompatActivity {
                 //ActivityOptionsCompat compat = ActivityOptionsCompat.makeCustomAnimation(getApplicationContext(),R.anim.fade_in,R.anim.fade_out);
                // ActivityCompat.startActivity(MainActivity.this, telacadastro,compat.toBundle());
                startActivity(telacadastro);
-
-
             }
         });
         //Button
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ValidarCampos();
-//                ActivityOptionsCompat compat = ActivityOptionsCompat.makeSceneTransitionAnimation(this,btnLogin, "transtion_key");
-//                ActivityCompat.startActivity(this,intent, compat.toBundle());
+                Intent Telaprincipal = new Intent(MainActivity.this, TelaPrincipal.class);
+                startActivity(Telaprincipal);
+                //finish();
             }
         });
     }

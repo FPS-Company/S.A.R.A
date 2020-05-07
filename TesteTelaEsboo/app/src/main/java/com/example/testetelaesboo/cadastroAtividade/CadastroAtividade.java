@@ -1,6 +1,7 @@
 package com.example.testetelaesboo.cadastroAtividade;
 
 import android.os.Bundle;
+import android.widget.EditText;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
@@ -18,6 +19,58 @@ public class CadastroAtividade extends AppCompatActivity {
     private ToggleButton tQuinta;
     private ToggleButton tSexta;
     private ToggleButton tSabado;
+    private EditText Titulo,DataInicio,DataFim,HoraInicio,HoraFim;
+
+    public CadastroAtividade() {
+    }
+
+    public CadastroAtividade(EditText titulo, EditText dataInicio, EditText dataFim, EditText horaInicio, EditText horaFim) {
+        Titulo = titulo;
+        DataInicio = dataInicio;
+        DataFim = dataFim;
+        HoraInicio = horaInicio;
+        HoraFim = horaFim;
+    }
+
+    public EditText getTitulo() {
+        return Titulo;
+    }
+
+    public void setTitulo(EditText titulo) {
+        Titulo = titulo;
+    }
+
+    public EditText getDataInicio() {
+        return DataInicio;
+    }
+
+    public void setDataInicio(EditText dataInicio) {
+        DataInicio = dataInicio;
+    }
+
+    public EditText getDataFim() {
+        return DataFim;
+    }
+
+    public void setDataFim(EditText dataFim) {
+        DataFim = dataFim;
+    }
+
+    public EditText getHoraInicio() {
+        return HoraInicio;
+    }
+
+    public void setHoraInicio(EditText horaInicio) {
+        HoraInicio = horaInicio;
+    }
+
+    public EditText getHoraFim() {
+        return HoraFim;
+    }
+
+    public void setHoraFim(EditText horaFim) {
+        HoraFim = horaFim;
+    }
 
     @Override
     protected void onCreate(Bundle SavedInstance){
