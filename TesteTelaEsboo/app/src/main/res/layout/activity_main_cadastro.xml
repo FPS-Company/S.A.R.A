@@ -81,7 +81,7 @@
         android:id="@+id/telaCadastro_edtNome"
         android:layout_width="293dp"
         android:layout_height="43dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/telacadastro_edtnome_cadastro"
         android:drawableLeft="@drawable/ic_account_circle_black_24dp"
         android:ems="10"
@@ -95,24 +95,13 @@
         app:layout_constraintEnd_toEndOf="@+id/telaCadastro_txtCriar"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/telaCadastro_txtCriar"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="107dp"
-        android:layout_height="105dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149"
-        app:srcCompat="@mipmap/icone_round" />
+        app:layout_constraintTop_toBottomOf="@+id/telaCadastro_txtCriar" />
 
     <TextView
         android:id="@+id/telaCadastro_txtCriar"
         android:layout_width="186dp"
         android:layout_height="49dp"
+        android:layout_marginTop="50dp"
         android:text="Criar Conta"
         android:textColor="#f4f4f4"
         android:textSize="36sp"
@@ -120,6 +109,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.629" />
+        app:layout_constraintTop_toBottomOf="@+id/roundedImageView3" />
+
+    <ImageView
+        android:id="@+id/roundedImageView3"
+        android:layout_width="108dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_imagemview_telaprincipal_round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
 </androidx.constraintlayout.widget.ConstraintLayout>

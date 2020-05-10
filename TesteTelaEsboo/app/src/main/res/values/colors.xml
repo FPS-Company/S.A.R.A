@@ -3,10 +3,10 @@
     //telalogin
     <color name="colorPrimary">#121b3e</color>
     <color name="colorPrimaryDark">#121b3e</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorAccent">@color/icone_background</color>
     //telaprincipal
     <color name="colorPrimaryTelaPrincipal">#4F5989</color>
     <color name="colorPrimaryDarkTelaPrincipal">#4F5989</color>
-    <color name="colorAccentTelaPrincipal">#0307DA</color>
+    <color name="colorAccentTelaPrincipal">@color/icone_background</color>
 </resources>
 

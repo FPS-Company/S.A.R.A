@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="com.google.android.material.navigation.NavigationView">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/icone_inicio_menu_tela_principal"
+            android:title="Início" />
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/icone_perfil_tela_principal"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/atividades"
+            android:icon="@drawable/icone_atividade_menu_tela_principal"
+            android:title="Atividades" />
+        <item
+            android:id="@+id/configuracao"
+            android:icon="@drawable/icone_configuracao_menu_tela_principal"
+            android:title="Configurações" />
+        <item
+            android:id="@+id/contatos"
+            android:icon="@drawable/icone_contatos_menu_tela_principal"
+            android:title="Contatos" />
+        <item
+            android:id="@+id/grupos"
+            android:icon="@drawable/icone_grupo_menu_tela_principal"
+            android:title="Grupos" />
+        <item
+            android:id="@+id/sobre"
+            android:icon="@drawable/icone_sobre_menu_tela_principal"
+            android:title="Sobre" />
+    </group>
+<!--    <item android:title="Comunicação">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/contatos"-->
+<!--                android:icon="@drawable/icone_contatos_menu_tela_principal"-->
+<!--                android:title="Contatos" />-->
+<!--            <item-->
+<!--                android:id="@+id/grupos"-->
+<!--                android:icon="@drawable/icone_grupo_menu_tela_principal"-->
+<!--                android:title="Grupos" />-->
+<!--            <item-->
+<!--                android:id="@+id/sobre"-->
+<!--                android:icon="@drawable/icone_sobre_menu_tela_principal"-->
+<!--                android:title="Sobre" />-->
+<!--        </menu>-->
+
+<!--    </item>-->
+
+</menu>
