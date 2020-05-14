@@ -3,6 +3,7 @@ package com.example.testetelaesboo.login;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.view.Window;
@@ -20,8 +21,17 @@ import androidx.core.app.ActivityOptionsCompat;
 import androidx.core.view.ViewCompat;
 
 import com.example.testetelaesboo.R;
+import com.example.testetelaesboo.api.Retrofit_Service;
 import com.example.testetelaesboo.cadastro.TelaCadastro;
 import com.example.testetelaesboo.telaPrincipal.TelaPrincipal;
+import com.example.testetelaesboo.usuario.usuario;
+
+import java.io.IOException;
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -91,32 +101,82 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Telaprincipal = new Intent(MainActivity.this, TelaPrincipal.class);
-                startActivity(Telaprincipal);
                 //finish();
+                Response response = null;
+                    Call<usuario> request = new Retrofit_Service().getSaraApi().selectUsuario(
+                        telaLogin_edtEmail.getText().toString(),telaLogin_edtSenha.getText().toString());
+                if(ValidarCampos() == true) {
+                    request.enqueue(new Callback<usuario>() {
+                        @Override
+                        public void onResponse(Call<usuario> call, Response<usuario> response) {
+                            if(response.isSuccessful()) {
+                                Intent Telaprincipal = new Intent(MainActivity.this, TelaPrincipal.class);
+                                startActivity(Telaprincipal);
+                            }else{
+                                Toast.makeText(MainActivity.this,"Há campos inválidos ou usuário não existe!", Toast.LENGTH_LONG).show();
+                            }
+                        }
+                        @Override
+                        public void onFailure(Call<usuario>call, Throwable t) {
+                            Log.e("GET_ERROR  ", "Erro ao buscar o e-mail e senha:" + t.getMessage());
+                        }
+                    });
+//                        request = new Retrofit_Service().getSaraApi().selectUsuario(telaLogin_edtEmail.getText().toString(),
+//                                telaLogin_edtSenha.getText().toString());
+//                        response = request.execute();
+//    Intent Telaprincipal = new Intent(MainActivity.this, TelaPrincipal.class);
+//    startActivity(Telaprincipal);
+                    }else{
+                        Toast.makeText( MainActivity.this,"Problema ao realizar o cadastro!", Toast.LENGTH_LONG).show();
+                    }
             }
+
         });
     }
 
-    private void ValidarCampos(){
-        boolean resultado = false;
+
+
+    private boolean ValidarCampos(){
         String email =  telaLogin_edtEmail.getText().toString();
         String senha =  telaLogin_edtSenha.getText().toString();
 
-        if(resultado = isCampoVazio(email)){
+//        if(resultado = isCampoVazio(email)){
+//            telaLogin_edtEmail.requestFocus();
+//        }else if(resultado = !isEmailValidado(email)){
+//            telaLogin_edtEmail.requestFocus();
+//        }else if(resultado = isCampoVazio(senha)){
+//            telaLogin_edtSenha.requestFocus();
+//        }else if(resultado = senha.length()<6){
+//            telaLogin_edtSenha.requestFocus(); }
+//        if(resultado){
+//            Toast.makeText(MainActivity.this,"Há campos inválidos ou em branco!", Toast.LENGTH_LONG).show();
+
+        boolean resultadoEmail = false;
+        boolean resultadoSenha = false;
+
+        if(resultadoEmail = isCampoVazio(email)){
             telaLogin_edtEmail.requestFocus();
-        }else if(resultado = !isEmailValidado(email)){
+            Toast.makeText( MainActivity.this,"Por favo digite um e-mail", Toast.LENGTH_LONG).show();
+        }else if(resultadoEmail = !isEmailValidado(email)){
             telaLogin_edtEmail.requestFocus();
-        }else if(resultado = isCampoVazio(senha)){
+            Toast.makeText( MainActivity.this,"email invalido", Toast.LENGTH_LONG).show();
+        }
+        // Validação dos campos Senha e CSena
+        else if(resultadoSenha = isCampoVazio(senha)){
             telaLogin_edtSenha.requestFocus();
-        }else if(resultado = senha.length()<6){
-            telaLogin_edtSenha.requestFocus(); }
-        if(resultado){
-            Toast.makeText(MainActivity.this,"Há campos inválidos ou em branco!", Toast.LENGTH_LONG).show();
+            Toast.makeText( MainActivity.this,"Digite uma senha", Toast.LENGTH_LONG).show();
+        }else if(resultadoSenha = senha.length()<6){
+            telaLogin_edtSenha.requestFocus();
+            Toast.makeText( MainActivity.this, "Senha muito fraca" , Toast.LENGTH_LONG).show();
+        }
+        if ((resultadoEmail = true) && ( resultadoSenha =true)){
+            return true;
+        }else{
+            return false;
+        }
         }
 
 
-    }
     private boolean isCampoVazio(String valor){
         boolean resultado = (TextUtils.isEmpty(valor) || valor.trim().isEmpty());
         return resultado;
@@ -128,3 +188,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+
