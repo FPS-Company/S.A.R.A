@@ -16,5 +16,9 @@
   "Usuarios": {
     "dataSource": "SARA2",
     "public": true
+  },
+  "Atividade": {
+    "dataSource": "SARA2",
+    "public": true
   }
 }

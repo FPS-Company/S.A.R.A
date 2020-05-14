@@ -1,5 +1,6 @@
 package com.example.testetelaesboo.api;
 
+import com.example.testetelaesboo.cadastroAtividade.CadastroAtividade;
 import com.example.testetelaesboo.usuario.usuario;
 
 import java.util.List;
@@ -19,8 +20,16 @@ public interface Sara_Api {
     @FormUrlEncoded
     @POST("Usuarios")
     Call<usuario> CadastroUsuario(@Field("nome") String nome, @Field("email") String email, @Field("senha") String senha);
+<<<<<<< HEAD
     @GET("Usuarios/findOne")
     Call<usuario>selectUsuario(@Query("email") String email, @Query("senha") String senha);
+=======
+
+    @FormUrlEncoded
+    @POST("Atividade")
+    Call<CadastroAtividade> CadastroAtividade(@Field("titulo") String titulo, @Field("dataInicio") String dataInicio, @Field("dataFim") String dataFim, @Field("horaInicio") String horaInicio, @Field("horaFim") String horaFim);
+
+>>>>>>> 6664c665bab7d6efdb251eca19ab7effeb9b64f5
 
 }
 
