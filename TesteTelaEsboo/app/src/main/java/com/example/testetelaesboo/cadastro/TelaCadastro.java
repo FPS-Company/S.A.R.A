@@ -52,23 +52,23 @@ public class TelaCadastro extends  AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Response response = null;
-                    Call<usuario> request = null;
+                Call<usuario> request = null;
                     try  {
-                        if(ValidarCampos() == true){
-                            // novo cadastro
-                            // POST na API sem enviar o id que será gerado no banco
+                    if(ValidarCampos() == true){
+                        // novo cadastro
+                        // POST na API sem enviar o id que será gerado no banco
                         request = new Retrofit_Service().getSaraApi().CadastroUsuario(telaCadastro_edtNome.getText().toString(),
                                 telaCadastro_edtEmail.getText().toString(), telaCadastro_edtSenha.getText().toString());
                         response = request.execute();
-                        }else{
-                            Toast.makeText( TelaCadastro.this,"Problema ao realizar o cadastro!", Toast.LENGTH_LONG).show();
-                        }
-                    }catch (IOException e) {
-                        e.printStackTrace();
-                        Log.e("ERRO", e.getMessage());
+                    }else{
+                        Toast.makeText( TelaCadastro.this,"Problema ao realizar o cadastro!", Toast.LENGTH_LONG).show();
                     }
-
+                }catch (IOException e) {
+                    e.printStackTrace();
+                    Log.e("ERRO", e.getMessage());
                 }
+
+            }
 
             });
 

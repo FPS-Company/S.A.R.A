@@ -1,5 +1,6 @@
 package com.example.testetelaesboo.api;
 
+import com.example.testetelaesboo.cadastroAtividade.CadastroAtividade;
 import com.example.testetelaesboo.usuario.usuario;
 
 import retrofit2.Call;
@@ -17,7 +18,7 @@ public interface Sara_Api {
 
     @FormUrlEncoded
     @POST("Atividade")
-    Call<atividade> CadastroUsuario(@Field("titulo") String titulo, @Field("horaInicio") String horaInicio, @Field("horaFim") String horaFim);
+    Call<CadastroAtividade> CadastroAtividade(@Field("titulo") String titulo, @Field("dataInicio") String dataInicio, @Field("dataFim") String dataFim, @Field("horaInicio") String horaInicio, @Field("horaFim") String horaFim);
 
 
 }

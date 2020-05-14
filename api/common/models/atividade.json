@@ -15,7 +15,7 @@
       "required": true
     },
     "dataFim": {
-      "type": "date",
+      "type": "string",
       "required": true
     },
     "horaInicio": {
