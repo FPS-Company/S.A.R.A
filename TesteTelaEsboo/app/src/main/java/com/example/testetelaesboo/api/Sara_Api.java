@@ -15,6 +15,10 @@ public interface Sara_Api {
     @POST("Usuarios")
     Call<usuario> CadastroUsuario(@Field("nome") String nome, @Field("email") String email, @Field("senha") String senha);
 
+    @FormUrlEncoded
+    @POST("Atividade")
+    Call<atividade> CadastroUsuario(@Field("titulo") String titulo, @Field("horaInicio") String horaInicio, @Field("horaFim") String horaFim);
+
 
 }
 

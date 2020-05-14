@@ -126,4 +126,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cadastroAtividade_edtHoraInicio"></include>
+
+    <Button
+        android:id="@+id/cadastroAtividade_btnCadastro"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/telacadastro_btn_style_cadastro"
+        android:drawableLeft="@drawable/ic_button_tela_cadastro_foreground"
+        android:paddingLeft="-27dp"
+        android:textColor="#121b3e"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastroAtividade_daypicker" />
 </androidx.constraintlayout.widget.ConstraintLayout>
