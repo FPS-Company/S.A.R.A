@@ -16,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.testetelaesboo.R;
 import com.example.testetelaesboo.api.Retrofit_Service;
+import com.example.testetelaesboo.login.MainActivity;
 import com.example.testetelaesboo.usuario.usuario;
 
 import java.io.IOException;
@@ -60,6 +61,13 @@ public class TelaCadastro extends  AppCompatActivity {
                         request = new Retrofit_Service().getSaraApi().CadastroUsuario(telaCadastro_edtNome.getText().toString(),
                                 telaCadastro_edtEmail.getText().toString(), telaCadastro_edtSenha.getText().toString());
                         response = request.execute();
+                        if(response.isSuccessful()){
+                        limparcampos();
+                        Toast.makeText(TelaCadastro.this,"Cadastro Realizado com sucesso!", Toast.LENGTH_LONG).show();
+                        Intent telalogin = new Intent(TelaCadastro.this, MainActivity.class);
+                        startActivity(telalogin);
+                        finish();
+                        }
                     }else{
                         Toast.makeText( TelaCadastro.this,"Problema ao realizar o cadastro!", Toast.LENGTH_LONG).show();
                     }
@@ -77,7 +85,7 @@ public class TelaCadastro extends  AppCompatActivity {
             boolean resultadoNome = false;
             boolean resultadoEmail = false;
             boolean resultadoSenha = false;
-            boolean resultadoCSenha = false;
+            boolean resultadoCSenha = true;
             String nome  =  telaCadastro_edtNome.getText().toString();
             String email =  telaCadastro_edtEmail.getText().toString();
             String senha =  telaCadastro_edtSenha.getText().toString();
@@ -108,7 +116,7 @@ public class TelaCadastro extends  AppCompatActivity {
             else if (!cSenha.equals(senha)) {
                 telaCadastro_edtCSenha.requestFocus();
                 Toast.makeText( TelaCadastro.this,"Senhas não conferem!", Toast.LENGTH_LONG).show();
-                resultadoCSenha = true;
+                resultadoCSenha = false;
             }
             if ((resultadoNome = true) && (resultadoEmail = true) && ( resultadoSenha =true) && (resultadoCSenha = true)){
                 return true;
@@ -124,6 +132,14 @@ public class TelaCadastro extends  AppCompatActivity {
             boolean resultado = (!isCampoVazio(email) && Patterns.EMAIL_ADDRESS.matcher(email).matches());//Patterns testa padrões
             // específicos(como ips, nome de domínio e afins) utilizando o regex
             return resultado;
+        }
+        private void limparcampos(){
+
+            telaCadastro_edtNome.setText("");
+            telaCadastro_edtEmail.setText("");
+            telaCadastro_edtSenha.setText("");
+            telaCadastro_edtCSenha.setText("");
+
         }
 
     }

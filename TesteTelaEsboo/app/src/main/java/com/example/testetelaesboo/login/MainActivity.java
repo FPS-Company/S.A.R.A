@@ -112,6 +112,8 @@ public class MainActivity extends AppCompatActivity {
                             if(response.isSuccessful()) {
                                 Intent Telaprincipal = new Intent(MainActivity.this, TelaPrincipal.class);
                                 startActivity(Telaprincipal);
+                                limparcampos();
+                                Toast.makeText(MainActivity.this,"Usuário validado com sucesso", Toast.LENGTH_LONG).show();
                             }else{
                                 Toast.makeText(MainActivity.this,"Há campos inválidos ou usuário não existe!", Toast.LENGTH_LONG).show();
                             }
@@ -185,6 +187,13 @@ public class MainActivity extends AppCompatActivity {
         boolean resultado = (!isCampoVazio(email) && Patterns.EMAIL_ADDRESS.matcher(email).matches());//Patterns testa padrões
         // específicos(como ips, nome de domínio e afins) utilizando o regex
         return resultado;
+    }
+    private void limparcampos(){
+
+        telaLogin_edtEmail.setText("");
+        telaLogin_edtSenha.setText("");
+
+
     }
 
 }
