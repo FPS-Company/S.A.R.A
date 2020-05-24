@@ -15,6 +15,9 @@
         <activity android:name=".telaPrincipal.TelaPrincipal"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity android:name=".telaPrincipal.fragment_inicio"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity android:name=".cadastro.TelaCadastro"></activity>
         <activity android:name=".login.MainActivity">
             <intent-filter>
