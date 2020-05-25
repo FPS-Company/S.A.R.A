@@ -25,9 +25,10 @@ public class fragment_inicio extends Fragment {
 
        fragment_FloatingActionButton = view.findViewById(R.id.fragment_menu_tela_principal_inicio_floatingAction);
        fragment_FloatingActionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
+           @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), CadastroAtividade.class));
+               Intent intent = new Intent(getActivity(), CadastroAtividade.class);
+               startActivity(intent);
             }
         });
        return view;

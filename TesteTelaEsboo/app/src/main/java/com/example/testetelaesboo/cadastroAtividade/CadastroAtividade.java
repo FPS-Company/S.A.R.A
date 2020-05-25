@@ -89,7 +89,7 @@ public class CadastroAtividade extends AppCompatActivity {
     protected void onCreate(Bundle SavedInstance){
         super.onCreate(SavedInstance);
         setContentView(R.layout.activity_main_cadastro_atividade);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
 
         tDomingo = (ToggleButton) findViewById(R.id.daypicker_tDomingo);
         tSegunda = (ToggleButton) findViewById(R.id.daypicker_tSegunda);
