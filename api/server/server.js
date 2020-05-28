@@ -5,6 +5,9 @@
 
 'use strict';
 
+var express = require("express");
+var bodyParser = require("body-parser");
+var  port  =  processo.env.PORT  ||  3000 ;
 const loopback = require('loopback');
 const boot = require('loopback-boot');
 
@@ -12,7 +15,7 @@ const app = module.exports = loopback();
 
 app.start = function() {
   // start the web server
-  return app.listen(function() {
+  return app.listen(port,function() {
     app.emit('started');
     const baseUrl = app.get('url').replace(/\/$/, '');
     console.log('Web server listening at: %s', baseUrl);
